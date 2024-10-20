@@ -166,6 +166,23 @@ returnBook(book){
 
     }else{
         console.log('$error');
-        
+
+    }
+}
+
+//task 4
+Class VIPPatron extends Patron{
+    constructor(name, priority=true);
+    this.name=name;
+    this.priority= prioroty;
+
+}
+borrowBook(book){
+    if(book.getAvailableBooks){
+        book.getAvailableBooks= false;
+        console.log('$checkout out');
+
+    }else{
+        console.log('$cannot do this action')
     }
 }
