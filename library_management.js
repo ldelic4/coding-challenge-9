@@ -140,4 +140,32 @@
 
   }
 
-  
+  //task 3
+class patron {
+    constructer(name){
+        this.name=name;
+        this.borrowBook=[];
+    }
+}
+
+borrowBook(book){
+    if (book.getAvailableBooks){
+        book.getAvailableBooks=false;
+        console.log('$checkout out');
+
+    } else{
+        console.log('$not available');
+    }
+}
+
+returnBook(book){
+    if(returnBook){
+        book.returnBook=true;
+        console.log('$returned');
+
+
+    }else{
+        console.log('$error');
+        
+    }
+}
