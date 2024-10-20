@@ -198,3 +198,14 @@ calcaulatetotalbooksavailable(){
     console.log(calcaulatetotalbooksavailable);
 }
 }
+
+//task 6
+class book(){
+    1:book1
+    2:book2
+    3:book3
+        class section(){
+            type:'nonfiction'
+            type:'fiction'
+        }
+}
