@@ -128,3 +128,16 @@
     
 
   console.log(`Total available books in Science: ${science.getAvailableBooks()}`);
+
+  //task 2
+  class Section {
+    constructor(name, books);
+    this.books=[]; 
+
+  }
+  getAvailableBooks(){
+    return books.filter(book=> book.getAvailableBooks);
+
+  }
+
+  
