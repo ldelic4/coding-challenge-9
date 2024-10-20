@@ -186,3 +186,15 @@ borrowBook(book){
         console.log('$cannot do this action')
     }
 }
+
+//task 5
+
+Class Section(){
+calcaulatetotalbooksavailable(){ 
+
+    return this.books.reduce((count))=> {
+        return (book.getAvailableBooks);
+    }
+    console.log(calcaulatetotalbooksavailable);
+}
+}
